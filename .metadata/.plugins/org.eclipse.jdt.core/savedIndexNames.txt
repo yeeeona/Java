@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+/Users/yeona/Desktop/s230523/workspace_java/.metadata/.plugins/org.eclipse.jdt.core
+1735021773.index
+2431536426.index
+1028052715.index
+1331935240.index
+2756675409.index
+1865797976.index
+603921292.index
+2708330788.index
+946112670.index
+3998653488.index
+3136703030.index
