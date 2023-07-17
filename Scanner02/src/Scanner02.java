@@ -29,6 +29,7 @@ public class Scanner02 {
 		System.out.println("원의 둘레: " + perimeter);
 		System.out.println("원의 면적: " + area);
 		
+		sc.close();
 		
 	}
 }

@@ -14,6 +14,12 @@
 <item elementID="=If01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=If03" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=If02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If04" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If06" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If07" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If08" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=If09" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689424622967_2" label="Window Working Set" name="Aggregate for window 1689424622967"/>
 </workingSetManager>

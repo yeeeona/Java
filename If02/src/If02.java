@@ -11,6 +11,8 @@ public class If02 {
 		
 		if(n%3 == 0 && n%4 == 0) {
 			System.out.println(n + "은 3의 배수이면서 4의 배수 입니다.");
+		} else {
+			System.out.println(n + "은 3의 배수이면서 4의 베수가아닙니다.");
 		}
 		
 		sc.close();
