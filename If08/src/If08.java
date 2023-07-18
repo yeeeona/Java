@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class If08 {
 	public static void main(String[] args) {
