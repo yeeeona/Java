@@ -9,24 +9,27 @@ import java.util.Scanner;
 public class Loop2D09 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int tot = 0, cnt =0;
 		
 		System.out.print("정수를 입력하세요.: ");
 		int n = sc.nextInt();
 		
-		int sum=0, cnt=0;
-		for(int i=1; i<=n; i++) {
-			for(int j=2; j<=n-1; j++) {
-				if(n%j==0) {
-					sum++;
-					cnt++;
-					System.out.print("i");
-				} else {
-					continue;
+		for(int i=2; i<=n; i++) {
+			for(int j=2; j<=i; j++) {
+				if(i == j) {
+					System.out.print(i + " ");
+					tot += i;
+					++cnt;
+				}
+				if(i%j == 0) {
+					break;
 				}
 				
 			}
 		}
 		
+		System.out.printf("\n2에서 %d까지의 소수의 합계: %d\n", n, tot);
+		System.out.printf("2에서 %d까지의 소수의 개수: %d\n", n, cnt);
 		
 		sc.close();
 	}

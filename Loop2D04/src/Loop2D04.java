@@ -25,6 +25,7 @@ public class Loop2D04 {
 			}
 			System.out.println();
 		}
+		sc.close();
 		
 	}
 

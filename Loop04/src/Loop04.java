@@ -16,7 +16,7 @@ public class Loop04 {
 				System.out.print(i + " ");
 			}
 		}
-		System.out.printf("합계: %d\n개수: %d", sum, cnt);
+		System.out.printf("\n합계: %d\n개수: %d", sum, cnt);
 		sc.close();
 		
 		

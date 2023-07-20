@@ -16,7 +16,7 @@ public class Loop09 {
 			power *= x;
 		}
 		
-		System.out.print(power);
+		System.out.printf("%f의 %d승은 %f입니다.", x, y, power);
 		sc.close();
 	}
 
