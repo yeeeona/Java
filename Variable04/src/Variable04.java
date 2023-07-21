@@ -9,6 +9,9 @@ public class Variable04 {
 		char ch = 'A'; // 문자는 1문자, 홀따옴표 사용
 		String str = "JAVA"; // 문자열은 1문자 이상, 쌍따옴표 사용
 		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 		System.out.println(ch);
 		System.out.println(str);
 		
