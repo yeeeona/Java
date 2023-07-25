@@ -11,6 +11,8 @@ class Account {
 	String no;
 	int balance;
 	
+	// 기본 생성자 - 쓰지 않아도 기본적으로 존재하는 생성자
+	// public Acocunt()
 }
 
 

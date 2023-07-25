@@ -8,12 +8,12 @@
 */
 
 class Vehicle {
-	String company;
-	String model;
-	String color;
-	double maxSpeed;
+	private String company;
+	private String model;
+	private String color;
+	private int maxSpeed;
 	
-	// 기본
+	// 기본 생성자
 	public Vehicle() {
 		
 	}
