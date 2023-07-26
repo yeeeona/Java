@@ -65,6 +65,10 @@ class Day {
 			}
 			return (y + y/4 - y/100 + y/400 + (13*m+8)/5 + d) % 7;
 	}
+	// 날짜 비교 인스턴스 메소드
+	public boolean equals(Day d) {
+		return this.year == d.year && this.month == d.month && this.date==d.date;
+	}
 }
 public class DayTest03 {
 	
@@ -114,11 +118,24 @@ public class DayTest03 {
 		*/
 		
 		// 2번 - 옳은 비교 방법
+		// -> 해결책: 값을 비교
+		// -> 개선점: 날짜를 비교하는 기능도 날짜 클래스 안으로 포함.
+		/*
 		if(compareDay(day1, day2)) {
 			System.out.println("두 날짜가 같습니다.");
 		} else {
 			System.out.println("두 날짜가 다릅니다.");
 		}
+		*/
+		
+		// 3번 -
+		// -> 해결책
+		if(day1.equals(day2)) {
+			System.out.println("두 날짜가 같습니다.");
+		} else {
+			System.out.println("두 날짜가 다릅니다.");
+		}
+		
 		
 	}
 

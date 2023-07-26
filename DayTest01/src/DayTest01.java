@@ -78,6 +78,12 @@ public class DayTest01 {
 		Day birthday = new Day(year, month, date);
 		
 		Day xDay = birthday;
+		
+		// 실제 데이터를 복사한 것ㅇ리 아니라, 참조만 복사
+		// birthday가 참조하는 곳을 xDay도 참조한다.
+		// birthday, xDay도 같은 곳을 참조한다.
+		
+		// xDay를 통해서 birthday를 변경한다. 
 		xDay.set(2023, 07, 25);
 		
 		System.out.printf("birthday = %4d년 %2d월 %2d일\n", birthday.getYear(), birthday.getMonth(), birthday.getDate());

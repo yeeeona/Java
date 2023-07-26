@@ -60,29 +60,48 @@ class Vehicle {
 
 public class VehicleTest01 {
 	public static void main(String[] args) {
-		Vehicle c1 = new Vehicle("Hundai", "Casper", "Blue", 130);
-		Vehicle c2 = new Vehicle("Kia", "Morning", "black", 120);
-		Vehicle c3 = new Vehicle("BMW", "X7", "Gray", 280);
-		Vehicle c4 = new Vehicle("Audi", "S8", "black", 310);
-		Vehicle c5 = new Vehicle();
+//		Vehicle c1 = new Vehicle("Hundai", "Casper", "Blue", 130);
+//		Vehicle c2 = new Vehicle("Kia", "Morning", "black", 120);
+//		Vehicle c3 = new Vehicle("BMW", "X7", "Gray", 280);
+//		Vehicle c4 = new Vehicle("Audi", "S8", "black", 310);
+//		Vehicle c5 = new Vehicle();
+//		
+//		// 출력
+//		c1.printInfo();
+//		c2.printInfo();
+//		c3.printInfo();
+//		c4.printInfo();
+//		
+//		// getter
+//		c5.setCompany("Benz");
+//		c5.setModel("AMG SL");
+//		c5.setColor("Red");
+//		c5.setMaxSpeed(310);
+//		
+//		// getter
+//		System.out.println("회사명: " + c5.getCompany());
+//		System.out.println("모델명: " + c5.getModel());
+//		System.out.println("색상: " + c5.getColor());
+//		System.out.println("최대속도: " + c5.getMaxSpeed());
 		
-		// 출력
-		c1.printInfo();
-		c2.printInfo();
-		c3.printInfo();
-		c4.printInfo();
+		// 인스턴스 배열
+		Vehicle[] vehicles = new Vehicle[] {
+				new Vehicle("Hundai", "Casper", "Blue", 130),
+				new Vehicle("Kia", "Morning", "black", 120),
+				new Vehicle("BMW", "X7", "Gray", 280),
+				new Vehicle("Audi", "S8", "black", 310),
+				new Vehicle("Benz", "AMG SL", "Red", 300),
+		};
 		
-		// getter
-		c5.setCompany("Benz");
-		c5.setModel("AMG");
-		c5.setColor("Red");
-		c5.setMaxSpeed(310);
-		
-		// getter
-		System.out.println("회사명: " + c5.getCompany());
-		System.out.println("모델명: " + c5.getModel());
-		System.out.println("색상: " + c5.getColor());
-		System.out.println("최대속도: " + c5.getMaxSpeed());
+		// 1번 - 기본 forans
+		for(int i=0; i<vehicles.length; i++) {
+			vehicles[i].printInfo();
+		}
+		System.out.println("----------");
+	
+		// 2번 - 확장 for
+		for(Vehicle v : vehicles) {
+			v.printInfo();
+		}
 	}
-
 }
