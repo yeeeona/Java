@@ -134,5 +134,13 @@
 <item elementID="=PackageTest01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=PointTest01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1690420423235_18" label="java0727" name="java0727">
+<item elementID="=DefaultConstructorTest01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MemberTest02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AccountTest05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PetTest01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PetTest02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SuperTest01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689424622967_2" label="Window Working Set" name="Aggregate for window 1689424622967"/>
 </workingSetManager>
