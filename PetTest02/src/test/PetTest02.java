@@ -1,6 +1,13 @@
 package test;
 
 import pet.*;
+/*
+퀴즈1) 상속 관계의 2개의 클래스를 만들고, 인스턴스의 배열을 만들어 활용하시오.
+- 부모: 인스턴스 변수는 3개, 자식: 1개 추가
+- 부모 클래스, 자식 클래스, super, overriding, 어노테이션, instanceof
+ex) 부모: Coffee, 자식: EspressoCoffee
+	부모: Car, 자식: SuperCar
+ */
 
 public class PetTest02 {
 	public static void main(String[] args) {
