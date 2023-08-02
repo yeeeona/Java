@@ -24,6 +24,25 @@ public class WrapperTest01 {
 		int j = 10; // 기본형
 		Integer jj = j;// 객체형, 오토박싱(Auto-Boxing)
 		
+		int j2 = jj += 20; // 오토언박싱(Auto-UnBoxing)
+		System.out.println(j2);
+		System.out.println("------");
+		
+		String s1 = "10";
+		// int a = s1 + 20; // 에러
+		int a = Integer.parseInt(s1) + 20;
+		System.out.println(a);
+		System.out.println("------");
+		
+		String s2 = "3.14";
+		double area = Double.parseDouble(s2) * 5.5 * 5.5;
+		System.out.println(area);
+		System.out.println("----");
+		
+		String s3 = "3000000000L";
+		Double money = Long.parseLong(s3) + Long.parseLong(s3)*0.01;
+		System.out.println(money);
+		
 		
 		
 
