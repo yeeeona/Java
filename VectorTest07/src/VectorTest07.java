@@ -13,16 +13,40 @@ public class VectorTest07 {
 	public static void main(String[] args) {
 		String[] names = {"감연아", "박찬호", "이승엽", "김연경", "김성근"};
 		
-		// 벡터 생성
+		// 1. 벡터 생성
 		Vector<String> v = new Vector<>();
 		
-		// 벡터에 배열 데이터 추가
+		// 2. 벡터에 배열 데이터 추가
+		for(int i=0; i<names.length; i++) {
+			v.add(names[i]);
+		}
+		System.out.println(v);
+		/*
 		v.add(names[0]);
 		v.add(names[1]);
 		v.add(names[2]);
 		v.add(names[3]);
 		v.add(names[4]);
 		System.out.println(v);
+		*/
+		
+		// 2. 중간에 추가
+		v.add(3, "손흥민");
+		System.out.println(v);
+		
+		// 4. 삭제
+		// v.remove(1);
+		v.remove("박진호");
+		System.out.println(v);
+		
+		// 5. 변경
+		v.set(3, "양효진");
+		System.out.println(v);
+		
+		// 6-1. 출력 1 - 기본 for문
+		
+		// 6-2. 출력2 - 확장 for
+	
 		
 	}
 
