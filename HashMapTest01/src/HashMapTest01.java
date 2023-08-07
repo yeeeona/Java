@@ -14,6 +14,8 @@
  
  */
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 public class HashMapTest01 {
 	public static void main(String[] args) {
 		// 키: 학번, 값: 이름
@@ -42,10 +44,21 @@ public class HashMapTest01 {
 		System.out.println(map);
 		System.out.println("크기: " + map.size());
 		
-		map.remove("안정원");
+		map.remove(987654, "안정원");
 		System.out.println(map);
 		System.out.println("크기: " + map.size());
 		
+		// 출력 - 확장 for문
+		
+		// 출력2 - keySet, Iterator;
+		Set<Integer> keySet = map.keySet();
+		Iterator<Integer> it = keySet.iterator();
+		while(it.hasNext()) {
+			int no = it.next();
+			String name = map.get(no);
+			System.out.println(no + "(" + name + ")");
+		}
+		System.out.println("---");
 
 	}
 
